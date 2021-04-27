@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>EVA</title>
+    <script src="../js/codigo.js">
+    </script>
+    <link rel="icon" href="../fontawesome/svgs/solid/exclamation-triangle.svg">
+
+</head>
+
+<body>
+    <div id="header" class="row relleno-lat">
+        <div>
+            <h1>Selectors en CSS</h1>
+            <img src="../fontawesome/svgs/solid/atom.svg" alt="Imágen del apartado header">
+        </div>
+
+    </div>
+    <ul>
+        <li><a href="#section-7">Últim selector</a></li>
+        <li><a href="#section-2">Primer Selector</a></li>
+        <li><a href="#section-1">Vídeo</a></li>
+        <li>
+            <a href="#header"><img src="../fontawesome/svgs/solid/angle-double-up.svg" alt="icono"></a>
+        </li>
+    </ul>
+    <div class="row relleno-lat flex" id="section-1">
+        <div class="column-1">
+            <h1>Tutorial en selectors en css</h1>
+
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/l1mER1bV0N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+
+    </div>
+
+
+    <div class="row relleno-lat flex" id="section-2">
+        <div class="column-2 relleno-col">
+            <h1>Selector universal </h1>
+            <h3>Amb aquest selector podem seleccionar tot el contingut d'una pàgina. Per defecte una pàgina web ve amb un nombre de píxels per defecte amb aquesta acció el que estem fent és eliminar el marge i el farciment de tots els elements
+
+            </h3>
+
+        </div>
+
+        <div class="column-2 relleno-col img2">
+            <img src="../img/Imágen Sección 2.PNG" alt="Imágen de la seccion-2">
+        </div>
+    </div>
+    <div class="row relleno-lat flex" id="section-3">
+        <div class="column-2 relleno-col img2">
+            <img src="../img/Imágen Sección 3.PNG" alt="Imágen de la seccion-3">
+        </div>
+        <div class="column-2 relleno-col">
+            <h1>Selector de Tipus</h1>
+
+            <h3>
+                El selector de tipus o també conegut com d'etiqueta s'encarrega de seleccionar tots els elements de la pàgina l'etiqueta HTML coincideixi.
+            </h3>
+        </div>
+
+    </div>
+
+
+    <div class="row relleno-lat flex" id="section-4">
+        <div class="column-2 relleno-col">
+            <h1>Selector de ID
+            </h1>
+            <h3>
+                És aquell que et permet seleccionar un element de la pàgina a través de el valor del seu atribut id. Aquest tipus de selectors només seleccionen un element de la pàgina perquè el valor de l'atribut id no es pot repetir.
+            </h3>
+        </div>
+        <div class="column-2 relleno-col img2">
+            <img src="../img/Imágen Sección 4.PNG" alt="Imágen de la seccion-4">
+        </div>
+    </div>
+
+
+    <div class="row relleno-lat flex" id="section-5">
+        <div class="column-2 relleno-col img2">
+            <img src="../img/Imágen Sección 5.PNG" alt="Imágen de la seccion-5">
+        </div>
+        <div class="column-2 relleno-col">
+            <h1>Selector de classe
+            </h1>
+            <h3>Els selectors de classe busquen un element que se li relacioni amb un atribut de class.
+            </h3>
+        </div>
+
+    </div>
+    <div class="row relleno-lat flex" id="section-6">
+        <div class="column-2 relleno-col">
+            <h1>Selector combinat
+            </h1>
+            <h3>El selector combinat serveix per fer un selector mes específic unint dos d'ells.
+
+            </h3>
+        </div>
+
+        <div class="column-2 relleno-col img2">
+            <img src="../img/Imágen Sección 6.PNG" alt="Imágen de la seccion-6">
+        </div>
+    </div>
+    <div class="row relleno-lat flex" id="section-7">
+        <div class="column-2 relleno-col img2">
+            <img src="../img/Imágen Sección 7.PNG" alt="Imágen de la seccion-7">
+        </div>
+        <div class="column-2 relleno-col">
+            <h1>Selector de fills</h1>
+            <h3>S'utilitza per seleccionar un element que és fill d'un altre element i s'indica mitjançant el "símbol major que" (>).</h3>
+        </div>
+    </div>
+    <footer class="row relleno-lat">
+        <h1>Canvia el teu idioma</h1>
+        <select name="language" id="language" onchange="language()">
+        <option value="CA" selected>Catala</option>
+        <option value="ES">Español</option>
+    </select>
+    </footer>
+</body>
+
+</html>

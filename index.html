@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>EVA</title>
+    <script src="./js/codigo.js">
+    </script>
+    <link rel="icon" href="./fontawesome/svgs/solid/exclamation-triangle.svg">
+
+
+</head>
+
+<body>
+    <div id="header" class="row relleno-lat">
+        <div>
+            <h1>Selectores en CSS</h1>
+            <img src="./fontawesome/svgs/solid/atom.svg" alt="Imágen del apartado header">
+        </div>
+
+    </div>
+    <ul>
+        <li><a href="#section-7">Último selector</a></li>
+        <li><a href="#section-2">Primer Selector</a></li>
+        <li><a href="#section-1">Vídeo</a></li>
+        <li>
+            <a href="#header"><img src="./fontawesome/svgs/solid/angle-double-up.svg" alt="icono"></a>
+        </li>
+    </ul>
+    <div class="row relleno-lat flex" id="section-1">
+        <div class="column-1">
+            <h1>Tutorial en selectores en css</h1>
+
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/l1mER1bV0N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+
+    </div>
+
+
+    <div class="row relleno-lat flex" id="section-2">
+        <div class="column-2 relleno-col">
+            <h1>Selector universal </h1>
+            <h3>Con este selector podemos seleccionar todo el contenido de una página. Por defecto una página web viene con un número de pixeles por defecto con esta acción lo que estamos haciendo es eliminar el margen y el relleno de todos los elementos
+                HTML.
+            </h3>
+
+        </div>
+
+        <div class="column-2 relleno-col">
+            <img src="./img/Imágen Sección 2.PNG" alt="Imágen de la seccion-2">
+        </div>
+    </div>
+    <div class="row relleno-lat flex" id="section-3">
+        <div class="column-2 relleno-col">
+            <img src="./img/Imágen Sección 3.PNG" alt="Imágen de la seccion-3">
+        </div>
+        <div class="column-2 relleno-col">
+            <h1>Selector de Tipo</h1>
+
+            <h3>
+                El selector de tipo o también conocido como de etiqueta se encarga de seleccionar todos los elementos de la página cuya etiqueta HTML coincida.
+            </h3>
+        </div>
+
+    </div>
+
+
+    <div class="row relleno-lat flex" id="section-4">
+        <div class="column-2 relleno-col">
+            <h1>Selector de ID
+            </h1>
+            <h3>Es aquel que te permite seleccionar un elemento de la página a través del valor de su atributo id. Este tipo de selectores sólo seleccionan un elemento de la página porque el valor del atributo id no se puede repetir.
+            </h3>
+        </div>
+        <div class="column-2 relleno-col">
+            <img src="./img/Imágen Sección 4.PNG" alt="Imágen de la seccion-4">
+        </div>
+    </div>
+
+
+    <div class="row relleno-lat flex" id="section-5">
+        <div class="column-2 relleno-col">
+            <img src="./img/Imágen Sección 5.PNG" alt="Imágen de la seccion-5">
+        </div>
+        <div class="column-2 relleno-col">
+            <h1>Selector de clase
+            </h1>
+            <h3>Los selectores de clase buscan un elemento que se le relacione con un atributo de class
+            </h3>
+        </div>
+
+    </div>
+    <div class="row relleno-lat flex" id="section-6">
+        <div class="column-2 relleno-col">
+            <h1>Selector combinado
+            </h1>
+            <h3>El selector combinado sirve para hacer un selector mas especifico uniendo dos de ellos.
+
+            </h3>
+        </div>
+
+        <div class="column-2 relleno-col">
+            <img src="./img/Imágen Sección 6.PNG" alt="Imágen de la seccion-6">
+        </div>
+    </div>
+    <div class="row relleno-lat flex" id="section-7">
+        <div class="column-2 relleno-col">
+            <img src="./img/Imágen Sección 7.PNG" alt="Imágen de la seccion-7">
+        </div>
+        <div class="column-2 relleno-col">
+            <h1>Selector de hijos</h1>
+            <h3>Se utiliza para seleccionar un elemento que es hijo de otro elemento y se indica mediante el "signo de mayor que" (>).</h3>
+        </div>
+    </div>
+    <footer class="row relleno-lat">
+        <h1>Cambia tu idioma</h1>
+        <select name="language" id="language" onchange="language()">
+        <option value="ES" selected>Español</option>
+        <option value="CA">Catala</option>
+    </select>
+    </footer>
+</body>
+
+
+
+</html>
